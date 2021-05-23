@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://github.com/yourUserName/YourProjectName">
-    <img src="#" alt="Project Name" width=150 height=150>
+  <a href="https://https://github.com/AfricanAsili/AfricanAsili-Site">
+    <img src="https://github.com/AfricanAsili/AfricanAsili-Site/blob/develop/art/AfricanAsili%20Logo%20Tag.png" alt="Project Name" width=150 height=150>
   </a>
   <h3 align="center">AfricanAsili</h3>
 
