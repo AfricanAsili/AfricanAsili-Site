@@ -6,7 +6,7 @@
     <div class="row" style="">
         <div class="col-lg-3"></div>
         <div class="col-lg-6">
-            <div class="row gy-4" style="margin-top: 17%;">
+            <div class="row gy-4" style="margin-top: 16%;">
                 <div class="col-lg-12">
                     <img src="/images/africanasili_whitelogo.png" alt="" class="img-fluid">
                 </div>
