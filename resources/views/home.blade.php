@@ -104,6 +104,11 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="row">
+                                <div class="col-lg">
+                                    <small><strong>View more recommendations</strong></small>
+                                </div>
+                            </div>
 
                         </div>
                     </div>
@@ -114,17 +119,62 @@
         <div class="col-lg-8">
             <div class="row">
                 <div class="col-lg">
-                    <div class="row">
-                        <div class="col-lg">
-                    <p>center content</p>
 
+                    <div class="row" style="background-color: white;border-radius: 5px;margin: 0 10px;padding: 8px;">
+                        <div class="col-lg-1" style="height: 50px; width: 50px;border-radius: 50%;background-image: url('/images/sergey-pesterev-unsplash.jpg');background-size: cover;"></div>
+                        <div class="col-lg-11">
+                            <div class="row">
+                                <div class="col-lg">
+                                    <textarea placeholder="Share a piece of history?" rows="3" style="width: 100%;margin-top: 1%; border: none;"></textarea>
+                                </div>
+                            </div>
+                            <div class="row" style="margin-top: 2%;">
+                                <div class="col-lg-1"></div>
+                                <div class="col-lg-8">
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <img src="/images/camera.png" alt="" class="img-fluid" style="height: 30px;display: inline;"><span>Photo</span>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <img src="/images/youtube.png" alt="" class="img-fluid" style="height: 30px;display: inline;"><span>Video</span>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <img src="/images/map.png" alt="" class="img-fluid" style="height: 30px;display: inline;"><span>Location</span>
+                                        </div>
+                                
+                                    </div>
+                                </div>
+                                <div class="col-lg-2"></div>
+                            </div>
                         </div>
                     </div>
+
+
                 </div>
             </div>
         </div>
         <div class="col-lg-2">
-            <p>right side content</p>
+           <div class="row" style="padding-right: 5px;">
+               <div class="col-lg" style="background-color: white;border: 1px solid #CECECE;">
+                    <h5 style="font-weight: bold;margin-top:5px;">Trend Topics</h5>
+                    <div class="row">
+                        <div class="col-lg">
+                            <small>Trending in DRC</small>
+                            <p class="display4">#King Leopold</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg">
+                            <ul class="list-group" style="list-style: none;">
+                                <li><p>#Folklore</p></li>
+                                <li><p>#WorldWar II</p></li>
+                                <li><p>#Traditions</p></li>
+                            </ul>
+                        </div>
+                    </div>
+
+               </div>
+           </div>
         </div>
        </div>
    </div>
