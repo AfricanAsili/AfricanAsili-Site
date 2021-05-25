@@ -11,7 +11,7 @@
                     <img src="/images/africanasili_whitelogo.png" alt="" class="img-fluid">
                 </div>
                 <div class="col-lg mx-auto">
-                    <a class="btn btn-primary mx-auto" style="display:block;background-color: #264653;border-radius:0;color:rgb(255, 255, 255);margin: 0 auto;font-family:Poppins;font-weight:bold;border:none;width: 20%;padding: 15px 10px;" href="www.google.com">GET STARTED</a>
+                    <a class="btn btn-primary mx-auto" style="display:block;background-color: #264653;border-radius:0;color:rgb(255, 255, 255);margin: 0 auto;font-family:Poppins;font-weight:bold;border:none;width: 20%;padding: 15px 10px;" href="/home">GET STARTED</a>
                 </div>
             </div>
         </div>
