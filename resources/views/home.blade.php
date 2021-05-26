@@ -1,38 +1,27 @@
 @extends('layouts.starter')
 
 @section('content')
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">African Asili</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Form</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Explore</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Notifications</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">User prof</a>
-                </li>
-            </ul>
+
+
+<div class="container-fluid" style="background-color: #264653;">
+    <div class="row">
+        <div class="col-lg-2">
+            <a class="navbar-brand" href="#"><img src="/images/africanasililogo.png" alt="" class="img-fluid" style="height: 40px;margin-top: 1%;"></a>
+        </div>
+        <div class="col-lg-4">
+            <input type="search" placeholder="Search i.e Country, date, ey" name="" id="" style="border: none; border-radius: 4px;padding: 5px 7px;">
+        </div>
+        <div class="col-lg-2"><a class="nav-link" href="#">Explore</a></div>
+        <div class="col-lg-2"><a class="nav-link" href="#">Notifications</a></div>
+        <div class="col-lg-2">
+                <img src="/images/sergey-pesterev-unsplash.jpg" alt="" class="img-fluid" style="border-radius: 50%;height: 40px; width: 40px;margin: 1%;border: 1px solid white;float: right;margin-top: 2%;">
         </div>
     </div>
-</nav>
+</div>
 
    <div class="container-fluid" style="margin-top: 4%;background-color: #F1F1F1;">
        <div class="row" style="padding-top: 20px;padding-left: 10px;">
-        <div class="col-lg-2">
+        <div class="col-lg-2" style="position: sticky;top: 0;">
             <div class="row" style="border: 1px solid #CECECE;background-color: white;">
                 <div class="col-lg">
                     <div class="row" style="background-image: url('/images/sergey-pesterev-unsplash.jpg');height: 150px;background-size: cover;">
@@ -149,6 +138,68 @@
                         </div>
                     </div>
 
+                    <div class="row" style="margin-top: 1%">
+                        <div class="col-lg">
+                            <div style="overflow: auto;width: 100%;white-space:nowrap;">
+                                <div style="height: 200px; width: 200px;border-radius: 5px;background-image: url('/images/sergey-pesterev-unsplash.jpg');background-size: cover;display:inline-block;margin-right: 10px;">
+                                    <img src="/images/sergey-pesterev-unsplash.jpg" alt="" class="img-fluid" style="border-radius: 50%;height: 50px; width: 50px;margin: 1%;border: 1px solid white;">
+                                </div>
+                                <div style="height: 200px; width: 200px;border-radius: 5px;background-image: url('/images/sergey-pesterev-unsplash.jpg');background-size: cover;display: inline-block;margin-right: 10px;">
+                                    <img src="/images/sergey-pesterev-unsplash.jpg" alt="" class="img-fluid" style="border-radius: 50%;height: 50px; width: 50px;margin: 1%;border: 1px solid white;">
+                                </div>
+                                <div style="height: 200px; width: 200px;border-radius: 5px;background-image: url('/images/sergey-pesterev-unsplash.jpg');background-size: cover;display: inline-block;margin-right: 10px;">
+                                    <img src="/images/sergey-pesterev-unsplash.jpg" alt="" class="img-fluid" style="border-radius: 50%;height: 50px; width: 50px;margin: 1%;border: 1px solid white;">
+                                </div>
+                                <div style="height: 200px; width: 200px;border-radius: 5px;background-image: url('/images/sergey-pesterev-unsplash.jpg');background-size: cover;display: inline-block;margin-right: 10px;">
+                                    <img src="/images/sergey-pesterev-unsplash.jpg" alt="" class="img-fluid" style="border-radius: 50%;height: 50px; width: 50px;margin: 1%;border: 1px solid white;">
+                                </div>
+                                <div style="height: 200px; width: 200px;border-radius: 5px;background-image: url('/images/sergey-pesterev-unsplash.jpg');background-size: cover;display: inline-block;margin-right: 10px;">
+                                    <img src="/images/sergey-pesterev-unsplash.jpg" alt="" class="img-fluid" style="border-radius: 50%;height: 50px; width: 50px;margin: 1%;border: 1px solid white;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin: 1% 10px 0 10px;">
+                        <div class="col-lg" style="background-color: white;">
+                            <div class="row">
+                                <div class="col-lg-10">
+                                    <div class="row" style="margin-top: 1%;">
+                                        <div class="col-lg-2">
+                                            <img src="/images/sergey-pesterev-unsplash.jpg" alt="" class="img-fluid" style="border-radius: 50%;height: 70px; width: 70px;margin: 1%;border: 1px solid white;">
+                                        </div>
+                                        <div class="col-lg-9">
+                                            <div style="margin-left: -5%;">
+                                            <small><strong>Earnest Young</strong></small><br>
+                                            <small>Kenyan born youtuber who's inlove with videography and making lasting..</small>
+                                            <p class="text-muted" style="font-size: 12px;">8h</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-1"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2"><img src="/images/menu.png" alt="" class="img-fluid" style="height: 20px; width: 20px;margin-top: 2%;float: right;"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg">
+                                    <small>Did you know that chyulu hills located in Manullo Cameroon used to serve as the centerpiece 
+                                        home of the Takaki Tribe. It's said that the piece at the center glows in the night to ward off
+                                         evil spirits.</small>
+                                </div>
+                            </div>
+                            <div class="row" style="text-align: center;margin-top: 1%;">
+                                <div class="col-lg-4">
+                                    <img src="/images/like.png" alt="" class="img-fluid" style="height: 20px; width: 20px;display: inline-block;margin-right: 5px;"><h6 class="text-muted" style="display: inline-block;"> LIKE</h6><small class="text-muted"> 24</small>
+                                </div>
+                                <div class="col-lg-4">
+                                    <img src="/images/comment.png" alt="" class="img-fluid" style="height: 20px; width: 20px;display: inline-block;margin-right: 5px;"><h6 class="text-muted" style="display: inline-block;"> COMMENT</h6><small class="text-muted"> 324</small>
+                                </div>
+                                <div class="col-lg-4">
+                                    <img src="/images/share.png" alt="" class="img-fluid" style="height: 20px; width: 20px;display: inline-block;margin-right: 5px;"><h6 class="text-muted" style="display: inline-block;"> SHARE</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>
