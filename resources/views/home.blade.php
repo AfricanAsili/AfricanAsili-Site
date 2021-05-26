@@ -9,17 +9,17 @@
             <a class="navbar-brand" href="#"><img src="/images/africanasililogo.png" alt="" class="img-fluid" style="height: 40px;margin-top: 1%;"></a>
         </div>
         <div class="col-lg-4">
-            <input type="search" placeholder="Search i.e Country, date, ey" name="" id="" style="border: none; border-radius: 4px;padding: 5px 7px;">
+            <input type="search" placeholder="Search i.e Country, date, key phrase" name="" id="" style="border: none; border-radius: 4px;padding: 5px 7px;height: 85%;margin-top: 1%;width: 100%;">
         </div>
-        <div class="col-lg-2"><a class="nav-link" href="#">Explore</a></div>
-        <div class="col-lg-2"><a class="nav-link" href="#">Notifications</a></div>
+        <div class="col-lg-2" style="margin: auto 0;color: white;"><a class="nav-link" href="#" style="color: white;"> <h5>Explore</h5> </a></div>
+        <div class="col-lg-2" style="margin: auto 0;color: white;"><a class="nav-link" href="#" style="color: white;"> <h5>Notifications</h5> </a></div>
         <div class="col-lg-2">
                 <img src="/images/sergey-pesterev-unsplash.jpg" alt="" class="img-fluid" style="border-radius: 50%;height: 40px; width: 40px;margin: 1%;border: 1px solid white;float: right;margin-top: 2%;">
         </div>
     </div>
 </div>
 
-   <div class="container-fluid" style="margin-top: 4%;background-color: #F1F1F1;">
+   <div class="container-fluid" style="background-color: #F1F1F1;">
        <div class="row" style="padding-top: 20px;padding-left: 10px;">
         <div class="col-lg-2" style="position: sticky;top: 0;">
             <div class="row" style="border: 1px solid #CECECE;background-color: white;">
