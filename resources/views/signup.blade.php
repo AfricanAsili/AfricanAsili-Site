@@ -16,7 +16,7 @@
                     <div class="row">
                         <div class="col-lg">
                             <img src="/images/africanasili_smaller_logo.png" alt="" class="img-fluid" style="margin: 3% 25%;">
-                            <h3 style="text-align: center;font-family: poppins;font-weight: 2000;margin: 5% 0;"><strong>SIGNIN</strong></h3>
+                            <h3 style="text-align: center;font-family: poppins;font-weight: 2000;margin: 4% 0;"><strong>SIGNUP</strong></h3>
                         </div>
                     </div>
                     <div class="row">
@@ -30,7 +30,7 @@
                                     <img src="/images/mail.png" alt="" class="img-fluid" style="height: 20px;">
                                 </div>
                             </div>
-                            <div class="row" style="margin-top: 10%;">
+                            <div class="row" style="margin-top: 5%;">
                                 <div class="col-lg-2"></div>
                                 <div class="col-lg-8">
                                     <input class="userinput_input" type="text" placeholder="Password" style="width: 100%;border:none;font-family: poppins;padding-bottom: 5px;border-bottom: 1px solid gray;">
@@ -40,16 +40,25 @@
                                 </div>
                             </div>
                             <div class="row" style="margin-top: 5%;">
+                                <div class="col-lg-2"></div>
+                                <div class="col-lg-8">
+                                    <input class="userinput_input" type="text" placeholder="Confirm Password" style="width: 100%;border:none;font-family: poppins;padding-bottom: 5px;border-bottom: 1px solid gray;">
+                                </div>
+                                <div class="col-lg-2">
+                                    <img src="/images/passkey.png" alt="" class="img-fluid" style="height: 30px;margin-left: -13%;">
+                                </div>
+                            </div>
+                            <div class="row" style="margin-top: 5%;">
                                 <div class="col-lg-12">
-                                    <button class="btn" style="background-color: #264653;font-family: poppins;color:white;border:none;border-radius:0;margin-left: 40%;padding: 10px 20px;">LET'S GO</button>
+                                    <button class="btn" style="background-color: #264653;font-family: poppins;color:white;border:none;border-radius:0;margin-left: 25%;padding: 10px 20px;">CREATE AN ACCOUNT</button>
                                 </div>
                             </div>
                             <div class="row" style="margin-top: 4%;">
                                 <div class="col-lg">
-                                    <p style="font-family: poppins;text-align: center;">Don't have an account? <a href="/register" style="text-decoration: none;font-weight: bold;font-size: 20px;">SignUp</a> </p>
+                                    <p style="font-family: poppins;text-align: center;">Already got an account? <a href="/login" style="text-decoration: none;font-weight: bold;font-size: 20px;">LogIn</a> </p>
                                 </div>
                             </div>
-                            <div class="row" style="margin-top: 10%;font-family: poppins;">
+                            <div class="row" style="margin-top: 4%;font-family: poppins;">
                                 <div class="col-lg-6">
                                     <p style="text-align: left;"><a href="/aboutus" style="text-decoration: none;">About Us</a></p>
                                 </div>
