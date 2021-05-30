@@ -12,6 +12,9 @@
         textarea:focus{
             outline:none;
         }
+        .userinput_input:focus{
+            outline:none;
+        }
     </style>
 </head>
 <body>
