@@ -9,7 +9,7 @@
         <div class="col-lg-2" style="margin: auto 0;color: white;"><a class="nav-link" href="#" style="color: white;"> <h5>Explore</h5> </a></div>
         <div class="col-lg-2" style="margin: auto 0;color: white;"><a class="nav-link" href="#" style="color: white;"> <h5>Notifications</h5> </a></div>
         <div class="col-lg-2">
-                <a href="/login"><img src="/images/sergey-pesterev-unsplash.jpg" alt="" class="img-fluid" style="border-radius: 50%;height: 40px; width: 40px;margin: 1%;border: 1px solid white;float: right;margin-top: 2%;"></a>
+                <a href="/login"><img src="/images/user_prof.png" alt="" class="img-fluid" style="border-radius: 50%;height: 40px; width: 40px;margin: 1%;border: 1px solid white;float: right;margin-top: 2%;"></a>
         </div>
     </div>
 </div>

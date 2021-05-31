@@ -29,6 +29,6 @@ Route::get('/register', function(){
     return view('signup');
 });
 
-Route::get('/aboutus', function(){
-    return view('signup');
+Route::get('/profile', function(){
+    return view('userprofile');
 });
