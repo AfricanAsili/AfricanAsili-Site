@@ -28,3 +28,7 @@ Route::get('/login', function(){
 Route::get('/register', function(){
     return view('signup');
 });
+
+Route::get('/aboutus', function(){
+    return view('signup');
+});
