@@ -63,7 +63,7 @@ You can:
 Add the various things that you are working on.  
 
 - [x] Working on the UI Mocks on Adobe XD
-- [ ] Working on the FrontEnd
+- [x] Working on the FrontEnd
 - [ ] Host the Website
 - [ ] Implement CI/CD
 - [ ] Work on the API
