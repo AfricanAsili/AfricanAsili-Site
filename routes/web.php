@@ -32,3 +32,7 @@ Route::get('/register', function(){
 Route::get('/profile', function(){
     return view('userprofile');
 });
+
+Route::get('/aboutus', function(){
+    return view('aboutus');
+});
