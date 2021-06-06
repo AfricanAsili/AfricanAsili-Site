@@ -11,7 +11,7 @@
                     <img src="/images/africanasili_whitelogo.png" alt="" class="img-fluid">
                 </div>
                 <div class="col-lg mx-auto">
-                    <a class="btn btn-primary mx-auto" style="display:block;background-color: #264653;border-radius:0;color:rgb(255, 255, 255);margin: 0 auto;font-family:Poppins;font-weight:bold;border:none;width: 20%;padding: 15px 10px;" href="/home">GET STARTED</a>
+                    <a class="btn btn-primary mx-auto" style="display:block;background-color: #264653;border-radius:0;color:rgb(255, 255, 255);margin: 0 auto;font-family:Poppins;font-weight:bold;border:none;width: 20%;padding: 10px 10px;" href="/home">GET STARTED</a>
                 </div>
             </div>
         </div>
@@ -20,15 +20,14 @@
     <div class="row" style="margin: 100px 0;">
         <div class="col-lg-3"></div>
         <div class="col-lg-6">
-            <ul class="" style="list-style: none;width: 100%;text-align: center;color: white;">
-                <li style="margin-right: 7%;display: inline-block;"><h4>FAQs</h4></li>
+            <ul style="list-style: none;width: 100%;text-align: center;color: white;font-family:poppins;">
                 <li style="margin-right: 7%;display: inline-block;"><h4>About Us</h4></li>
                 <li style="margin-right: 7%;display: inline-block;"><h4>cc</h4></li>
                 <li style="margin-right: 7%;display: inline-block;"><h4>WorkWithUs</h4></li>
             </ul>
         </div>
         <div class="col-lg-3">
-            <small style="color: white;">Image on Unsplash by Sergey <a href="https://unsplash.com/photos/wdMWMHXUpsc">Pesterev</a></small>
+            <small style="color: white;font-family:poppins;">Image on Unsplash by Sergey <a href="https://unsplash.com/photos/wdMWMHXUpsc">Pesterev</a></small>
         </div>
     </div>
 </div>
