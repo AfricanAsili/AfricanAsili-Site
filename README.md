@@ -38,7 +38,7 @@ To answer this, I'll start off by asking you a question..<br>
  My name is Wachira Nicholas Nduati, an avid documentary lover who for the longest time tried to ignore the itch to start this. I hope it works out. 
 
 #### Hosted?
-The site is yet to be hosted but will soon take up the space [AFricanAsili.org](https://www.africanasili.org/)
+The site is hosted on [AFricanAsili.org](https://www.africanasili.org/)
 
 
 ### Technical
@@ -64,7 +64,7 @@ Add the various things that you are working on.
 
 - [x] Working on the UI Mocks on Adobe XD
 - [x] Working on the FrontEnd
-- [ ] Host the Website
+- [x] Host the Website
 - [ ] Implement CI/CD
 - [ ] Work on the API
 
