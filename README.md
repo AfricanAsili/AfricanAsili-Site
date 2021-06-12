@@ -3,14 +3,13 @@
     <img src="https://github.com/AfricanAsili/AfricanAsili-Site/blob/develop/art/AfricanAsili%20Logo%20Tag.png" alt="Project Name" width=351 height=150>
   </a>
   <h1 align="center">AfricanAsili</h1>
-  [![CircleCI](https://circleci.com/gh/AfricanAsili/AfricanAsili-Site/tree/develop.svg?style=shield?circle-token=a0a5f92a2d5c9e08b8ac479c1b59a96f2fab4cad)](https://circleci.com/gh/AfricanAsili/AfricanAsili-Site/tree/develop)
   <p align="center">
   	This is an attempt at recreating, capturing and storing the lost african narrative collaboratively. Fully opensourced, crowdsourced and built by the people.
    
 </p>
 
 <br>
-
+[![CircleCI](https://circleci.com/gh/AfricanAsili/AfricanAsili-Site/tree/develop.svg?style=shield?circle-token=a0a5f92a2d5c9e08b8ac479c1b59a96f2fab4cad)](https://circleci.com/gh/AfricanAsili/AfricanAsili-Site/tree/develop)
 
 ## Table of contents
 - [About the Website](#about-the-website)
