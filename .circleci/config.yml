@@ -18,9 +18,9 @@ jobs:
         command: mysqld --default-authentication-plugin=mysql_native_password
         environment:
           MYSQL_USER: forge
-          MYSQL_DATABASE: test
+          MYSQL_DATABASE: forge
           MYSQL_ROOT_PASSWORD: ''
-          MYSQL_PASSWORD: 'test'
+          MYSQL_PASSWORD: 'forge'
       #
       # - image: redis:2.8.19
 
