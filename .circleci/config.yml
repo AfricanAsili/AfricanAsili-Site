@@ -15,6 +15,12 @@ jobs:
       # Using the RAM variation mitigates I/O contention
       # for database intensive operations.
       - image: circleci/mysql:5.7-ram
+        command: mysqld --default-authentication-plugin=mysql_native_password
+        environment:
+          MYSQL_USER: root
+          MYSQL_DATABASE: test
+          MYSQL_ROOT_PASSWORD: ''
+          MYSQL_PASSWORD: 'test'
       #
       # - image: redis:2.8.19
 
@@ -33,7 +39,11 @@ jobs:
             - v1-dependencies-
 
       - run: composer install -n --prefer-dist
-
+      - run:
+          name: Install MySQL driver
+          command: |
+            sudo docker-php-ext-configure pdo_mysql --with-pdo-mysql=mysqlnd
+            sudo docker-php-ext-install zip bcmath pdo_mysql
       - save_cache:
           key: v1-dependencies-{{ checksum "composer.json" }}
           paths:
@@ -51,9 +61,7 @@ jobs:
       # prepare the database
       # - run: touch storage/testing.sqlite
       # - run: php artisan migrate --env=testing --database=sqlite_testing --force
-      # - run: php artisan migrate --env=testing
-      - run: mysql create test --user="root" --password="root"
-      - run: php artisan migrate --env=testing --force
+      - run: php artisan migrate --env=testing --database=mysql --force
 
       # run tests with phpunit or codecept
       #- run: ./vendor/bin/phpunit
