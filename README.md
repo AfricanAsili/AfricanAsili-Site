@@ -2,8 +2,8 @@
   <a href="https://https://github.com/AfricanAsili/AfricanAsili-Site">
     <img src="https://github.com/AfricanAsili/AfricanAsili-Site/blob/develop/art/AfricanAsili%20Logo%20Tag.png" alt="Project Name" width=351 height=150>
   </a>
-  <h3 align="center">AfricanAsili</h3>
-
+  <h1 align="center">AfricanAsili</h1>
+  [![<AfricanAsili>](https://circleci.com/gh/AfricanAsili/AfricanAsili-Site.svg?style=svg)](#)
   <p align="center">
   	This is an attempt at recreating, capturing and storing the lost african narrative collaboratively. Fully opensourced, crowdsourced and built by the people.
    
