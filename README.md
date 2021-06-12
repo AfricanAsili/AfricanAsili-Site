@@ -9,7 +9,7 @@
 </p>
 
 <br>
-[![CircleCI](https://circleci.com/gh/AfricanAsili/AfricanAsili-Site/tree/develop.svg?style=shield?circle-token=a0a5f92a2d5c9e08b8ac479c1b59a96f2fab4cad)](https://circleci.com/gh/AfricanAsili/AfricanAsili-Site/tree/develop)
+[![CircleCI](https://circleci.com/gh/AfricanAsili/AfricanAsili-Site/tree/develop.svg?style=shield?circle-token=a0a5f92a2d5c9e08b8ac479c1b59a96f2fab4cad)] (https://circleci.com/gh/AfricanAsili/AfricanAsili-Site/tree/develop)
 
 ## Table of contents
 - [About the Website](#about-the-website)
