@@ -15,7 +15,7 @@ class CreateUser extends TestCase
      */
     public function test_example()
     {
-        $response = $this->get('/v1/register');
+        $response = $this->get('api/v1/register');
 
         $response->assertStatus(200);
     }
