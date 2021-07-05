@@ -18,6 +18,6 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('/v1/register', function(){
-    return "home";
-});
+
+Route::get('/v1/register', ['App\Http\Controllers\UsersController', 'store']);
+
